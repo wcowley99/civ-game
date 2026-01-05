@@ -1,2 +1,0 @@
-Flags:
-  Add: [ "-Ideps/raylib/src", "-Isrc" ]

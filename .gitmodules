@@ -1,3 +1,6 @@
 [submodule "deps/raylib"]
 	path = deps/raylib
 	url = git@github.com:raysan5/raylib.git
+[submodule "deps/VulkanMemoryAllocator"]
+	path = deps/VulkanMemoryAllocator
+	url = git@github.com:GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
