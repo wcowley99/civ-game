@@ -5,7 +5,7 @@
 class Application {
 public:
   bool Init();
-  void Shutdown();
+  void Cleanup();
 
   void Run();
 

@@ -73,7 +73,7 @@ void Renderer::InitDevice() {
   }
 }
 
-void Renderer::Shutdown() {
+void Renderer::Cleanup() {
   m_Device.waitIdle();
 
   m_FrameQueue.Destroy();

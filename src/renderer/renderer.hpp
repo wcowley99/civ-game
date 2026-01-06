@@ -9,7 +9,7 @@
 class Renderer {
 public:
   bool Init();
-  void Shutdown();
+  void Cleanup();
 
   void Draw();
 

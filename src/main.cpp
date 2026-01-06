@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
 
   app.Run();
 
-  app.Shutdown();
+  app.Cleanup();
 
   return 0;
 }

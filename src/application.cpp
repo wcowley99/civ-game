@@ -11,7 +11,7 @@ bool Application::Init() {
   return true;
 }
 
-void Application::Shutdown() { m_Renderer.Shutdown(); }
+void Application::Cleanup() { m_Renderer.Cleanup(); }
 
 void Application::Run() {
   while (!m_Quit) {
